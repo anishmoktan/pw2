@@ -1,0 +1,68 @@
+body {
+    margin:0px;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1{
+    color: #112d4e; 
+    font-size: 5.655rem;
+    margin-top: 50px auto 0 auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h2{
+    color: #112d4e; 
+    font-size: 2.5rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: normal;
+}
+h3{
+
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.top-container {
+    background-color:#f9f7f7;
+    position: relative;
+    padding-top: 100px;
+   
+}
+
+.middle-container {
+   
+}
+
+.bottom-container {
+}
+
+.skill-row{
+    width: 10%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+.chillies-img{
+    width: 100%;
+    float: left;
+    margin-right:30px;
+}
+
+.computer-img{
+    width: 100%;
+}
+
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    
+}

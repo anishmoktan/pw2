@@ -66,8 +66,9 @@ hr {
 }
 
 .bottom-container {
+    background-color: #f9f7f7;
     position: relative;
-    padding-top: 100px;
+    padding: 50px 0 20px;
     text-align: center;
 }
 
@@ -107,11 +108,11 @@ hr {
 
 .btn {
     background: #3D94F6;
-    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
-    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
-    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
-    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
-    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    background-image: -webkit-linear-gradient(top, #dbe2ef, #3f72af);
+    background-image: -moz-linear-gradient(top, #dbe2ef, #3f72af);
+    background-image: -ms-linear-gradient(top, #dbe2ef, #3f72af);
+    background-image: -o-linear-gradient(top, #dbe2ef, #3f72af);
+    background-image: -webkit-gradient(to bottom, #dbe2ef, #3f72af);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -130,17 +131,34 @@ hr {
     cursor: pointer;
     text-align: center;
  }
- 
+
  .btn:hover {
-    border: solid #337FED 1px;
-    background: #1E62D0;
-    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    border: solid #3f72af 1px;
+    background: #3f72af;
+    background-image: -webkit-linear-gradient(top, #3f72af, #dbe2ef);
+    background-image: -moz-linear-gradient(top, #3f72af, #dbe2ef);
+    background-image: -ms-linear-gradient(top, #3f72af, #dbe2ef);
+    background-image: -o-linear-gradient(top, #3f72af, #dbe2ef);
+    background-image: -webkit-gradient(to bottom, #3f72af, #3dbe2ef);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
+ }
+
+ a {
+     color: black;
+     font-family: 'IBM Plex Sans', sans-serif;
+     margin: 10px 20px;
+     text-decoration: none;
+ }
+ a:hover {
+     color: gray;
+
+ }
+
+ .cr{
+     color: gray;
+     font-size: .75rem;
+     padding: 20px 0;
  }
